@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "aura",
+  "version": "${version}",
+  "name": "aura-client",
+  "description": "A fabric hacked client called 'Aura'",
+  "authors": [
+    "ScriptingPhoenix"
+  ],
+  "contact": {
+    "website": "www.phoenix-studios.org",
+    "repo": "https://github.com/ScriptingPhoenix/aura-client"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/aura/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.phoenixstudios.aura.client.AuraClient"
+    ]
+  },
+  "mixins": [
+    "aura.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.4",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}

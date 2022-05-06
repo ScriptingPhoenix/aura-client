@@ -16,7 +16,7 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "org.phoenixstudios.aura.client.AuraClient"
+      "org.phoenixstudios.aura.Aura"
     ]
   },
   "mixins": [
